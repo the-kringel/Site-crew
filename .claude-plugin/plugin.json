@@ -1,0 +1,23 @@
+{
+  "name": "site-crew",
+  "version": "0.1.0",
+  "description": "Mod: a live panel of every subagent and side session a session starts, nested as they spawn each other, drawn as a construction crew from apprentice to architect by model and effort. Works with plain Claude Code; no other plugin needed.",
+  "author": {
+    "name": "the-kringel",
+    "url": "https://github.com/the-kringel"
+  },
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "autoOpen": {
+      "type": "string",
+      "title": "Open the crew panel",
+      "description": "yes: open it when the first worker starts; no: only with /crew",
+      "default": "yes",
+      "options": ["yes", "no"]
+    }
+  },
+  "homepage": "https://github.com/the-kringel/Site-crew",
+  "repository": "https://github.com/the-kringel/Site-crew",
+  "license": "MIT",
+  "keywords": ["mod", "subagents", "sessions", "panel", "visualization"]
+}

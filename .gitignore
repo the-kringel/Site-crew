@@ -1,0 +1,4 @@
+# Written by Claude Code when it loads the mod from this folder (types for the editor).
+.claude-plugin/types/
+/tsconfig.json
+node_modules/

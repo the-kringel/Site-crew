@@ -1,0 +1,16 @@
+{
+  "name": "site-crew",
+  "owner": { "name": "the-kringel", "url": "https://github.com/the-kringel" },
+  "metadata": {
+    "description": "A Claude Code mod: every subagent and side session your session starts, nested as they start each other, drawn as a construction crew from apprentice to architect."
+  },
+  "plugins": [
+    {
+      "name": "site-crew",
+      "source": "./",
+      "description": "Mod: a live panel of every subagent and side session a session starts, nested as they spawn each other, drawn as a construction crew from apprentice to architect by model and effort. Works with plain Claude Code; no other plugin needed.",
+      "version": "0.1.0",
+      "category": "mod"
+    }
+  ]
+}
