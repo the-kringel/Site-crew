@@ -29,7 +29,9 @@ Answer `y` to add the marketplace and pick a scope, then start a new session: mo
 claude plugin install site-crew --marketplace the-kringel/Site-crew
 ```
 
-That's it. The panel opens by itself the first time an agent starts. `/crew` shows or hides it.
+That's it. The panel opens by itself the first time an agent starts. `/crew` shows or hides it. If the installer mentions an option not yet set, that's `autoOpen` (below); its default applies until you change it.
+
+Already using the [diabolic-savvys](https://github.com/the-kringel/diabolic-savvys) marketplace? It lists Site crew too: `/plugin install site-crew@diabolic-savvys`.
 
 ## What you see
 
